@@ -1,0 +1,34 @@
+{
+    "expo": {
+        "name": "ryder",
+        "slug": "ryder",
+        "version": "1.0.0",
+        "scheme": "ryder",
+        "orientation": "portrait",
+        "icon": "./assets/images/icon.png",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "image": "./assets/images/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#2F80ED"
+        },
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/images/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            }
+        },
+        "web": {
+            "bundler": "metro",
+            "output": "server",
+            "favicon": "./assets/images/favicon.png"
+        },
+        "plugins": [["expo-router", { "origin": "https://shra1v32.me" }]],
+        "experiments": {
+            "typedRoutes": true
+        }
+    }
+}
